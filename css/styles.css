@@ -1,0 +1,61 @@
+*{
+    margin:0px
+    padding: 0%
+}
+
+.bg-col{
+    background-color: #FAEC98 /*#FAEA59#FAB539*/;
+}
+
+.btn-primary{
+    background-color: #FAEA59;
+    border-color: #FAB539;
+}
+
+.btn-primary:hover{
+    background-color: #FAB539;
+    border-color: beige;
+    transform: scale(0.9);
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+
+footer{
+    width: 100%;
+    background-color:#FAEC98;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.ancho-footer{
+    margin-top: 30px;
+}
+
+.bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: fuchsia;
+    
+}
+
+.bi-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: blue
+}
+.bi-whatsapp{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: green;
+}

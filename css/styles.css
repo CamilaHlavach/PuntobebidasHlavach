@@ -1,5 +1,5 @@
 *{
-    margin:0px
+    margin:0px;
     padding: 0%
 }
 
@@ -104,25 +104,6 @@ footer{
         width: 70%;
         height: 70%;
     }
-    /*section.container-fluid.bg-col{
-        width: 200%;
-        height: 200%;
-        display: flex;
-        justify-content: center;
-        
-    }
-    img.img-abs{
-        width: 70%;
-        height: 70%;
-    }
-    footer{
-        width: 200%;
-        background-color:#FAEC98;
-        height: 200%;
-        margin-top: 0px;
-        display: flex;
-        justify-content: center;
-        
-    }*/
+   
 }
     

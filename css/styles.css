@@ -1,0 +1,108 @@
+*{
+    margin:0px;
+    padding: 0%
+}
+
+.bg-col{
+    background-color: #FAEC98;
+}
+
+.btn-primary{
+    background-color: #FAEA59;
+    border-color: #FAB539;
+}
+
+.btn-primary:hover{
+    background-color: #FAB539;
+    border-color: beige;
+    color: black;
+    transform: scale(0.9);
+}
+.btn-primary{
+    color: black;
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.img-abs{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    display: block;
+    border-radius: 150px;
+}
+
+footer{
+    width: 100%;
+    background-color:#FAEC98;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.ancho-footer{
+    margin-top: 30px;
+}
+
+.bi-instagram {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    
+}
+
+.bi-instagram:hover{
+    color: fuchsia
+}
+
+.bi-facebook{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black
+}
+.bi-facebook:hover{
+    color: blue
+}
+.bi-whatsapp{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+}
+.bi-whatsapp:hover{
+    color: green;
+}
+
+@media (max-width: 979px){
+    Body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    img.img-abs{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 576px) { 
+    Body {
+        width: 200%;
+        height: 200%;
+    }
+    
+    img.img-abs{
+        width: 70%;
+        height: 70%;
+    }
+   
+}

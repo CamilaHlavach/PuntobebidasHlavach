@@ -1,0 +1,64 @@
+.bg-col{
+    background-color: $color-principal;
+}
+
+.card:hover{
+    transform: scale(1.1);
+  }
+
+.img-abs{
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+    display: block;
+    border-radius: 150px;
+}
+
+
+footer{
+    width: 100%;
+    background-color: $color-principal;
+    height: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.ancho-footer{
+    margin-top: 30px;
+}
+
+.bi-instagram {
+    @extend .btn.redes;
+    
+    &:hover{
+        color:rgb(13, 12, 13)
+    }
+}
+
+.bi-facebook{
+    @extend .btn.redes;
+    
+    &:hover{
+        color: blue
+    }
+}
+
+.bi-whatsapp{
+    @extend .btn.redes;
+
+    &:hover{
+        color: green;
+    }
+}
+
+.btn.redes{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: map-get($colores: $negro );
+}
+

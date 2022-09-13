@@ -4,7 +4,7 @@
 
 .card:hover{
     transform: scale(1.1);
-  }
+}
 
 .img-abs{
     width: auto;
@@ -13,6 +13,10 @@
     padding-top: 50px;
     display: block;
     border-radius: 150px;
+}
+
+.text-center{
+    color:goldenrod
 }
 
 
@@ -34,7 +38,7 @@ footer{
     @extend .btn.redes;
     
     &:hover{
-        color:rgb(13, 12, 13)
+        color:rgb(13, 12, 13);
     }
 }
 
@@ -54,7 +58,7 @@ footer{
     }
 }
 
-.btn.redes{
+.btn.redes {
     font-size: 30px;
     text-align: center;
     margin-left: 5px;
